@@ -53,7 +53,7 @@ int sendBalance(qeo_factory_t* qeo, int argc, const char **argv) {
         qeo_event_writer_write(msg_writer, &message);
         return 0;
     } else {
-        printf("Send Gamelle arguments manquants : type uuid weight timestamp");
+        printf("Send Balence arguments manquants : type uuid weight timestamp");
         return -1;
     }
 }
